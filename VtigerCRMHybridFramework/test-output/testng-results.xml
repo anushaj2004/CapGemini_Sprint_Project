@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to the Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Product]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Initialize the Product Information page]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click Save without entering the Product Name]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Wait for the validation alert to appear]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Retrieve the validation alert message]]>
+    </line>
+    <line>
+      <![CDATA[Validation alert message: Product Name cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Verify the Product Name validation message]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Product Name validation message displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Accept the validation alert]]>
+    </line>
+    <line>
+      <![CDATA[Validation alert accepted successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Initialize the Login page]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Read invalid username and password from the properties file]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter invalid login credentials]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Capture the login error message]]>
+    </line>
+    <line>
+      <![CDATA[Login error message: You must specify a valid username and password.]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Verify that the login error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Invalid login error message was displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Capture screenshot for invalid login credentials]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured for invalid login credentials]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to the Opportunities module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Opportunity]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Initialize the Opportunity Information page]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click Save without entering the Opportunity Name]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Wait for the validation alert to appear]]>
+    </line>
+    <line>
+      <![CDATA[Validation alert message: Opportunity Name cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Verify the Opportunity Name validation message]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Opportunity Name validation message displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Accept the validation alert]]>
+    </line>
+    <line>
+      <![CDATA[Validation alert accepted successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to Documents module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Document]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter document title and save the document]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click on Delete Document]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Wait for delete confirmation alert]]>
+    </line>
+    <line>
+      <![CDATA[Delete confirmation alert: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Navigate to Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Create a product]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Open Product Documents]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Open Select Documents popup]]>
+    </line>
+    <line>
+      <![CDATA[Popup Title: ]]>
+    </line>
+    <line>
+      <![CDATA[Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134421&parenttab=Inventory]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Search for the deleted document]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Verify the document search result]]>
+    </line>
+    <line>
+      <![CDATA[Search result: No Documents Found !]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to Documents module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Document]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter document title and save the document]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click on Delete Document]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Wait for delete confirmation alert]]>
+    </line>
+    <line>
+      <![CDATA[Delete confirmation alert: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Navigate to Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Create a product]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Open Product Documents]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Open Select Documents popup]]>
+    </line>
+    <line>
+      <![CDATA[Popup Title: ]]>
+    </line>
+    <line>
+      <![CDATA[Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134423&parenttab=Inventory]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Search for the deleted document]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Verify the document search result]]>
+    </line>
+    <line>
+      <![CDATA[Search result: No Documents Found !]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to Documents module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Document]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter document title and save the document]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click on Delete Document]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Wait for delete confirmation alert]]>
+    </line>
+    <line>
+      <![CDATA[Delete confirmation alert: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Navigate to Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Create a product]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Open Product Documents]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Open Select Documents popup]]>
+    </line>
+    <line>
+      <![CDATA[Popup Title: ]]>
+    </line>
+    <line>
+      <![CDATA[Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134425&parenttab=Inventory]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Search for the deleted document]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Verify the document search result]]>
+    </line>
+    <line>
+      <![CDATA[Search result: No Documents Found !]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to the home page and click on documents]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Document button]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter the document title]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click on Save button to save the document]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Verify the created document title]]>
+    </line>
+    <line>
+      <![CDATA[Expected Document Title: document1_Title]]>
+    </line>
+    <line>
+      <![CDATA[Actual Document Title: document1_Title]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Document title is matching. Test passed]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to the home page and click on documents]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Document button]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter the document title]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click on Save button to save the document]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Verify the created document title]]>
+    </line>
+    <line>
+      <![CDATA[Expected Document Title: document2_Title]]>
+    </line>
+    <line>
+      <![CDATA[Actual Document Title: document2_Title]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Document title is matching. Test passed]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to the home page and click on documents]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Document button]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter the document title]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click on Save button to save the document]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Verify the created document title]]>
+    </line>
+    <line>
+      <![CDATA[Expected Document Title: document3_Title]]>
+    </line>
+    <line>
+      <![CDATA[Actual Document Title: document3_Title]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Document title is matching. Test passed]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to the home page and click on documents]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Document button]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Open Excel file and read document test data]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Enter document title from Excel]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Upload a file larger than 3MB]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Wait for the file size alert]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Capture and verify the alert message]]>
+    </line>
+    <line>
+      <![CDATA[Expected Alert Message: File size should not be greater than 3MB]]>
+    </line>
+    <line>
+      <![CDATA[Actual Alert Message: File size should not be greater than 3MB]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Accept the alert]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Capture screenshot of the large file validation]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Large file validation test completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to the home page and click on Email]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Compose email]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Wait for the Compose window to open]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click Add To to select an email recipient]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Search for contact: Vinayak Malgaund]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Select the contact: Vinayak Malgaund]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Enter the email subject: Automation Testing]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Save the composed email]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Return to the Email window and search by subject]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Verify the saved email subject]]>
+    </line>
+    <line>
+      <![CDATA[Expected Subject: Automation Testing]]>
+    </line>
+    <line>
+      <![CDATA[Actual Subject: Automation Testing]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Email was saved and subject verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Select the saved email]]>
+    </line>
+    <line>
+      <![CDATA[Step 12: Click Delete to delete the saved email]]>
+    </line>
+    <line>
+      <![CDATA[Delete confirmation message: Are you sure you want to delete the selected 1 records?]]>
+    </line>
+    <line>
+      <![CDATA[Delete confirmation alert accepted]]>
+    </line>
+    <line>
+      <![CDATA[Step 13: Search again to verify email deletion]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to the home page and click on Email]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Compose email]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Wait for the Compose window to open]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Click Add To to select an email recipient]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Search for contact: Vinayak Malgaund]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Select the contact: Vinayak Malgaund]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Enter the email subject: Application issue handle]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Save the composed email]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Return to the Email window and search by subject]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Verify the saved email subject]]>
+    </line>
+    <line>
+      <![CDATA[Expected Subject: Application issue handle]]>
+    </line>
+    <line>
+      <![CDATA[Actual Subject: Application issue handle]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Email was saved and subject verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Select the saved email]]>
+    </line>
+    <line>
+      <![CDATA[Step 12: Click Delete to delete the saved email]]>
+    </line>
+    <line>
+      <![CDATA[Delete confirmation message: Are you sure you want to delete the selected 1 records?]]>
+    </line>
+    <line>
+      <![CDATA[Delete confirmation alert accepted]]>
+    </line>
+    <line>
+      <![CDATA[Step 13: Search again to verify email deletion]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-21T11:25:44 IST" name="NegativeGroupSuite" finished-at="2026-10-21T11:33:12 IST" duration-ms="448043">
+    <groups>
+      <group name="negative">
+        <method signature="TC_Document_Functional.verifyCreateDocument(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" name="verifyCreateDocument" class="com.vtiger.crm.document.TC_Document_Functional"/>
+        <method signature="TC_Document_Functional.verifyLargeSizedFile()[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" name="verifyLargeSizedFile" class="com.vtiger.crm.document.TC_Document_Functional"/>
+        <method signature="TC_Document_Integration.verifyProductDocDelete(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" name="verifyProductDocDelete" class="com.vtiger.crm.document.TC_Document_Integration"/>
+        <method signature="TC_Email_Negative.verifyDeleteEmail(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" name="verifyDeleteEmail" class="com.vtiger.crm.email.TC_Email_Negative"/>
+        <method signature="TC_Login_Functional.verifyInvalidLogin()[pri:0, instance:com.vtiger.crm.login.TC_Login_Functional@179ece50]" name="verifyInvalidLogin" class="com.vtiger.crm.login.TC_Login_Functional"/>
+        <method signature="TC_Opportunities_Negative.verifyOppName()[pri:0, instance:com.vtiger.crm.opportunities.TC_Opportunities_Negative@1fa121e2]" name="verifyOppName" class="com.vtiger.crm.opportunities.TC_Opportunities_Negative"/>
+        <method signature="TC_Product_Negative.verifyProductNameblank()[pri:0, instance:com.vtiger.crm.product.TC_Product_Negative@9d5509a]" name="verifyProductNameblank" class="com.vtiger.crm.product.TC_Product_Negative"/>
+      </group> <!-- negative -->
+      <group name="functional">
+        <method signature="TC_Document_Functional.verifyCreateDocument(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" name="verifyCreateDocument" class="com.vtiger.crm.document.TC_Document_Functional"/>
+        <method signature="TC_Document_Functional.verifyLargeSizedFile()[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" name="verifyLargeSizedFile" class="com.vtiger.crm.document.TC_Document_Functional"/>
+        <method signature="TC_Email_Negative.verifyDeleteEmail(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" name="verifyDeleteEmail" class="com.vtiger.crm.email.TC_Email_Negative"/>
+        <method signature="TC_Login_Functional.verifyInvalidLogin()[pri:0, instance:com.vtiger.crm.login.TC_Login_Functional@179ece50]" name="verifyInvalidLogin" class="com.vtiger.crm.login.TC_Login_Functional"/>
+        <method signature="TC_Opportunities_Negative.verifyOppName()[pri:0, instance:com.vtiger.crm.opportunities.TC_Opportunities_Negative@1fa121e2]" name="verifyOppName" class="com.vtiger.crm.opportunities.TC_Opportunities_Negative"/>
+        <method signature="TC_Product_Negative.verifyProductNameblank()[pri:0, instance:com.vtiger.crm.product.TC_Product_Negative@9d5509a]" name="verifyProductNameblank" class="com.vtiger.crm.product.TC_Product_Negative"/>
+      </group> <!-- functional -->
+      <group name="integration">
+        <method signature="TC_Document_Integration.verifyProductDocDelete(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" name="verifyProductDocDelete" class="com.vtiger.crm.document.TC_Document_Integration"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2026-10-21T11:25:44 IST" name="NegativeGroupTest" finished-at="2026-10-21T11:33:12 IST" duration-ms="448043">
+      <class name="com.vtiger.crm.email.TC_Email_Negative">
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" started-at="2026-10-21T11:30:57 IST" name="lanuchBrowser" finished-at="2026-10-21T11:31:21 IST" duration-ms="23690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyDeleteEmail(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" started-at="2026-10-21T11:31:21 IST" name="verifyDeleteEmail" data-provider="saveEmailDetails" finished-at="2026-10-21T11:32:00 IST" duration-ms="39518" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vinayak Malgaund]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation Testing]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //b[text()='No Records Found']'
+(tried for 10 seconds with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //b[text()='No Records Found']'
+(tried for 10 seconds with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at com.vtiger.crm.utilities.ExplicitWait.waitForElementToVisible(ExplicitWait.java:13)
+at com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail(TC_Email_Negative.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[text()='No Records Found']"}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [950327797fd271c4c93ff71e488f4e2a, findElement {using=xpath, value=//b[text()='No Records Found']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\golla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51284}, goog:processID: 28592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51284/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 950327797fd271c4c93ff71e488f4e2a
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to the home page and click on Email]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Compose email]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Wait for the Compose window to open]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click Add To to select an email recipient]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Search for contact: Vinayak Malgaund]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Select the contact: Vinayak Malgaund]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Enter the email subject: Automation Testing]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Save the composed email]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Return to the Email window and search by subject]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Verify the saved email subject]]>
+            </line>
+            <line>
+              <![CDATA[Expected Subject: Automation Testing]]>
+            </line>
+            <line>
+              <![CDATA[Actual Subject: Automation Testing]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Email was saved and subject verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Select the saved email]]>
+            </line>
+            <line>
+              <![CDATA[Step 12: Click Delete to delete the saved email]]>
+            </line>
+            <line>
+              <![CDATA[Delete confirmation message: Are you sure you want to delete the selected 1 records?]]>
+            </line>
+            <line>
+              <![CDATA[Delete confirmation alert accepted]]>
+            </line>
+            <line>
+              <![CDATA[Step 13: Search again to verify email deletion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" started-at="2026-10-21T11:32:00 IST" name="closeBrowser" finished-at="2026-10-21T11:32:01 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" started-at="2026-10-21T11:32:01 IST" name="lanuchBrowser" finished-at="2026-10-21T11:32:28 IST" duration-ms="26755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyDeleteEmail(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" started-at="2026-10-21T11:32:28 IST" name="verifyDeleteEmail" data-provider="saveEmailDetails" finished-at="2026-10-21T11:33:11 IST" duration-ms="42733" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vinayak Malgaund]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Application issue handle]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //b[text()='No Records Found']'
+(tried for 10 seconds with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //b[text()='No Records Found']'
+(tried for 10 seconds with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at com.vtiger.crm.utilities.ExplicitWait.waitForElementToVisible(ExplicitWait.java:13)
+at com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail(TC_Email_Negative.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[text()='No Records Found']"}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e536f15fd5d5f1aadca220cafb045242, findElement {using=xpath, value=//b[text()='No Records Found']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\golla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11257}, goog:processID: 27660, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11257/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e536f15fd5d5f1aadca220cafb045242
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to the home page and click on Email]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Compose email]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Wait for the Compose window to open]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click Add To to select an email recipient]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Search for contact: Vinayak Malgaund]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Select the contact: Vinayak Malgaund]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Enter the email subject: Application issue handle]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Save the composed email]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Return to the Email window and search by subject]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Verify the saved email subject]]>
+            </line>
+            <line>
+              <![CDATA[Expected Subject: Application issue handle]]>
+            </line>
+            <line>
+              <![CDATA[Actual Subject: Application issue handle]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Email was saved and subject verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Select the saved email]]>
+            </line>
+            <line>
+              <![CDATA[Step 12: Click Delete to delete the saved email]]>
+            </line>
+            <line>
+              <![CDATA[Delete confirmation message: Are you sure you want to delete the selected 1 records?]]>
+            </line>
+            <line>
+              <![CDATA[Delete confirmation alert accepted]]>
+            </line>
+            <line>
+              <![CDATA[Step 13: Search again to verify email deletion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.email.TC_Email_Negative@1a677343]" started-at="2026-10-21T11:33:11 IST" name="closeBrowser" finished-at="2026-10-21T11:33:12 IST" duration-ms="1466" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.crm.email.TC_Email_Negative -->
+      <class name="com.vtiger.crm.product.TC_Product_Negative">
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Negative@9d5509a]" started-at="2026-10-21T11:25:44 IST" name="lanuchBrowser" finished-at="2026-10-21T11:26:09 IST" duration-ms="25093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyProductNameblank()[pri:0, instance:com.vtiger.crm.product.TC_Product_Negative@9d5509a]" started-at="2026-10-21T11:26:09 IST" name="verifyProductNameblank" finished-at="2026-10-21T11:26:12 IST" duration-ms="2808" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to the Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Product]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Initialize the Product Information page]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click Save without entering the Product Name]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Wait for the validation alert to appear]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Retrieve the validation alert message]]>
+            </line>
+            <line>
+              <![CDATA[Validation alert message: Product Name cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Verify the Product Name validation message]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Product Name validation message displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Accept the validation alert]]>
+            </line>
+            <line>
+              <![CDATA[Validation alert accepted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductNameblank -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.product.TC_Product_Negative@9d5509a]" started-at="2026-10-21T11:26:12 IST" name="closeBrowser" finished-at="2026-10-21T11:26:13 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.crm.product.TC_Product_Negative -->
+      <class name="com.vtiger.crm.document.TC_Document_Integration">
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:26:45 IST" name="lanuchBrowser" finished-at="2026-10-21T11:27:09 IST" duration-ms="23679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyProductDocDelete(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:27:09 IST" name="verifyProductDocDelete" data-provider="createDoc" finished-at="2026-10-21T11:27:25 IST" duration-ms="16018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smart_watches]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[guess_watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to Documents module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Document]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter document title and save the document]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click on Delete Document]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Wait for delete confirmation alert]]>
+            </line>
+            <line>
+              <![CDATA[Delete confirmation alert: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Navigate to Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Create a product]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Open Product Documents]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Open Select Documents popup]]>
+            </line>
+            <line>
+              <![CDATA[Popup Title: ]]>
+            </line>
+            <line>
+              <![CDATA[Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134421&parenttab=Inventory]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Search for the deleted document]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Verify the document search result]]>
+            </line>
+            <line>
+              <![CDATA[Search result: No Documents Found !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductDocDelete -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:27:25 IST" name="closeBrowser" finished-at="2026-10-21T11:27:26 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:27:26 IST" name="lanuchBrowser" finished-at="2026-10-21T11:27:51 IST" duration-ms="24983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyProductDocDelete(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:27:51 IST" name="verifyProductDocDelete" data-provider="createDoc" finished-at="2026-10-21T11:28:09 IST" duration-ms="18194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[refirgerator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to Documents module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Document]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter document title and save the document]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click on Delete Document]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Wait for delete confirmation alert]]>
+            </line>
+            <line>
+              <![CDATA[Delete confirmation alert: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Navigate to Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Create a product]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Open Product Documents]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Open Select Documents popup]]>
+            </line>
+            <line>
+              <![CDATA[Popup Title: ]]>
+            </line>
+            <line>
+              <![CDATA[Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134423&parenttab=Inventory]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Search for the deleted document]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Verify the document search result]]>
+            </line>
+            <line>
+              <![CDATA[Search result: No Documents Found !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductDocDelete -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:28:09 IST" name="closeBrowser" finished-at="2026-10-21T11:28:11 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:28:11 IST" name="lanuchBrowser" finished-at="2026-10-21T11:28:37 IST" duration-ms="25403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyProductDocDelete(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:28:37 IST" name="verifyProductDocDelete" data-provider="createDoc" finished-at="2026-10-21T11:28:54 IST" duration-ms="17661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wireless Mouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mouse_product_guide]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to Documents module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Document]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter document title and save the document]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click on Delete Document]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Wait for delete confirmation alert]]>
+            </line>
+            <line>
+              <![CDATA[Delete confirmation alert: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Navigate to Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Create a product]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Open Product Documents]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Open Select Documents popup]]>
+            </line>
+            <line>
+              <![CDATA[Popup Title: ]]>
+            </line>
+            <line>
+              <![CDATA[Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134425&parenttab=Inventory]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Search for the deleted document]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Verify the document search result]]>
+            </line>
+            <line>
+              <![CDATA[Search result: No Documents Found !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductDocDelete -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.document.TC_Document_Integration@4116aac9]" started-at="2026-10-21T11:28:54 IST" name="closeBrowser" finished-at="2026-10-21T11:28:55 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.crm.document.TC_Document_Integration -->
+      <class name="com.vtiger.crm.document.TC_Document_Functional">
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:28:56 IST" name="lanuchBrowser" finished-at="2026-10-21T11:29:20 IST" duration-ms="24430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyCreateDocument(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:29:20 IST" name="verifyCreateDocument" data-provider="createDoc" finished-at="2026-10-21T11:29:25 IST" duration-ms="5347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[document1_Title]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[product1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\golla\OneDrive\Desktop\ReadFromFile1.txt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ACOE Fireflink]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\golla\Downloads\Soft Computing ppt.pptx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to the home page and click on documents]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Document button]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter the document title]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click on Save button to save the document]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Verify the created document title]]>
+            </line>
+            <line>
+              <![CDATA[Expected Document Title: document1_Title]]>
+            </line>
+            <line>
+              <![CDATA[Actual Document Title: document1_Title]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Document title is matching. Test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateDocument -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:29:25 IST" name="closeBrowser" finished-at="2026-10-21T11:29:27 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:29:27 IST" name="lanuchBrowser" finished-at="2026-10-21T11:29:51 IST" duration-ms="24462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyCreateDocument(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:29:51 IST" name="verifyCreateDocument" data-provider="createDoc" finished-at="2026-10-21T11:29:57 IST" duration-ms="5605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[document2_Title]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[product2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\golla\OneDrive\Desktop\ReadFromFile1.txt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bill Gates]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to the home page and click on documents]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Document button]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter the document title]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click on Save button to save the document]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Verify the created document title]]>
+            </line>
+            <line>
+              <![CDATA[Expected Document Title: document2_Title]]>
+            </line>
+            <line>
+              <![CDATA[Actual Document Title: document2_Title]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Document title is matching. Test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateDocument -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:29:57 IST" name="closeBrowser" finished-at="2026-10-21T11:29:58 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:29:58 IST" name="lanuchBrowser" finished-at="2026-10-21T11:30:21 IST" duration-ms="23398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyCreateDocument(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:30:21 IST" name="verifyCreateDocument" data-provider="createDoc" finished-at="2026-10-21T11:30:26 IST" duration-ms="5270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[document3_Title]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[product3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\golla\OneDrive\Desktop\ReadFromFile1.txt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin123@ Administrator1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to the home page and click on documents]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Document button]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter the document title]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click on Save button to save the document]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Verify the created document title]]>
+            </line>
+            <line>
+              <![CDATA[Expected Document Title: document3_Title]]>
+            </line>
+            <line>
+              <![CDATA[Actual Document Title: document3_Title]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Document title is matching. Test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateDocument -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:30:26 IST" name="closeBrowser" finished-at="2026-10-21T11:30:28 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:30:28 IST" name="lanuchBrowser" finished-at="2026-10-21T11:30:51 IST" duration-ms="23677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyLargeSizedFile()[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:30:51 IST" name="verifyLargeSizedFile" finished-at="2026-10-21T11:30:56 IST" duration-ms="4393" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to the home page and click on documents]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Document button]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Open Excel file and read document test data]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Enter document title from Excel]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Upload a file larger than 3MB]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Wait for the file size alert]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Capture and verify the alert message]]>
+            </line>
+            <line>
+              <![CDATA[Expected Alert Message: File size should not be greater than 3MB]]>
+            </line>
+            <line>
+              <![CDATA[Actual Alert Message: File size should not be greater than 3MB]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Accept the alert]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Capture screenshot of the large file validation]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Large file validation test completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLargeSizedFile -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2]" started-at="2026-10-21T11:30:56 IST" name="closeBrowser" finished-at="2026-10-21T11:30:57 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.crm.document.TC_Document_Functional -->
+      <class name="com.vtiger.crm.opportunities.TC_Opportunities_Negative">
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.opportunities.TC_Opportunities_Negative@1fa121e2]" started-at="2026-10-21T11:26:17 IST" name="lanuchBrowser" finished-at="2026-10-21T11:26:40 IST" duration-ms="23328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyOppName()[pri:0, instance:com.vtiger.crm.opportunities.TC_Opportunities_Negative@1fa121e2]" started-at="2026-10-21T11:26:40 IST" name="verifyOppName" finished-at="2026-10-21T11:26:43 IST" duration-ms="2529" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to the Opportunities module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Opportunity]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Initialize the Opportunity Information page]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Click Save without entering the Opportunity Name]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Wait for the validation alert to appear]]>
+            </line>
+            <line>
+              <![CDATA[Validation alert message: Opportunity Name cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Verify the Opportunity Name validation message]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Opportunity Name validation message displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Accept the validation alert]]>
+            </line>
+            <line>
+              <![CDATA[Validation alert accepted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOppName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.opportunities.TC_Opportunities_Negative@1fa121e2]" started-at="2026-10-21T11:26:43 IST" name="closeBrowser" finished-at="2026-10-21T11:26:44 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.crm.opportunities.TC_Opportunities_Negative -->
+      <class name="com.vtiger.crm.login.TC_Login_Functional">
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.login.TC_Login_Functional@179ece50]" started-at="2026-10-21T11:26:13 IST" name="lanuchBrowser" finished-at="2026-10-21T11:26:16 IST" duration-ms="2064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyInvalidLogin()[pri:0, instance:com.vtiger.crm.login.TC_Login_Functional@179ece50]" started-at="2026-10-21T11:26:16 IST" name="verifyInvalidLogin" finished-at="2026-10-21T11:26:17 IST" duration-ms="1162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Initialize the Login page]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Read invalid username and password from the properties file]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter invalid login credentials]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Capture the login error message]]>
+            </line>
+            <line>
+              <![CDATA[Login error message: You must specify a valid username and password.]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Verify that the login error message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Invalid login error message was displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Capture screenshot for invalid login credentials]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured for invalid login credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.login.TC_Login_Functional@179ece50]" started-at="2026-10-21T11:26:17 IST" name="closeBrowser" finished-at="2026-10-21T11:26:17 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.crm.login.TC_Login_Functional -->
+    </test> <!-- NegativeGroupTest -->
+  </suite> <!-- NegativeGroupSuite -->
+</testng-results>

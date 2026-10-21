@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NegativeGroupSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NegativeGroupTest(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.vtiger.crm.email.TC_Email_Negative">
+        <methods>
+          <include name="verifyDeleteEmail" invocation-numbers="0 1"/>
+          <include name="lanuchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.crm.email.TC_Email_Negative -->
+    </classes>
+  </test> <!-- NegativeGroupTest(failed) -->
+</suite> <!-- Failed suite [NegativeGroupSuite] -->

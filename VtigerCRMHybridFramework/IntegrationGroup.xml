@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="IntegrationGroupSuite">
+  <test thread-count="5" name="IntegrationGroupTest">
+  <groups>
+  <run>
+  <include name="integration"></include>
+  </run></groups>
+    <classes>
+      <class name="com.vtiger.crm.login.TC_Login_Integration"/>
+      <class name="com.vtiger.crm.product.TC_Product_Integration"/>
+      <class name="com.vtiger.crm.product.TC_Product_System"/>
+      <class name="com.vtiger.crm.email.TC_Email_Functional"/>
+      <class name="com.vtiger.crm.opportunities.TC_Opportunities_Integration"/>
+      <class name="com.vtiger.crm.product.TC_Product_Negative"/>
+      <class name="com.vtiger.crm.login.TC_Login_Functional"/>
+      <class name="com.vtiger.crm.document.TC_Document_Smoke"/>
+      <class name="com.vtiger.crm.opportunities.TC_Opportunities_Functional"/>
+      <class name="com.vtiger.crm.opportunities.TC_Opportunities_Negative"/>
+      <class name="com.vtiger.crm.product.TC_Product_Functional"/>
+      <class name="com.vtiger.crm.document.TC_Document_Integration"/>
+      <class name="com.vtiger.crm.email.TC_Email_Integration"/>
+      <class name="com.vtiger.crm.document.TC_Document_System"/>
+      <class name="com.vtiger.crm.document.TC_Document_Functional"/>
+      <class name="com.vtiger.crm.email.TC_Email_Negative"/>
+    </classes>
+  </test> <!-- IntegrationGroupTest -->
+</suite> <!-- IntegrationGroupSuite -->

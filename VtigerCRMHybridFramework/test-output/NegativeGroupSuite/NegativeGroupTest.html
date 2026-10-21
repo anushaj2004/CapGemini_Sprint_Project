@@ -1,0 +1,560 @@
+<html>
+<head>
+<title>TestNG:  NegativeGroupTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>NegativeGroupTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 21 11:25:44 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>448 seconds (448043 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>negative </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail()'><b>verifyDeleteEmail</b><br>Test class: com.vtiger.crm.email.TC_Email_Negative<br>Parameters: Vinayak Malgaund, Automation Testing<br/>
+<a href="#Output-1419794148" onClick='toggleBox("Output-1419794148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1419794148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1419794148">
+Step 1: Navigate to the home page and click on Email<br/>
+Step 2: Click on Compose email<br/>
+Step 3: Wait for the Compose window to open<br/>
+Step 4: Click Add To to select an email recipient<br/>
+Step 5: Search for contact: Vinayak Malgaund<br/>
+Step 6: Select the contact: Vinayak Malgaund<br/>
+Step 7: Enter the email subject: Automation Testing<br/>
+Step 8: Save the composed email<br/>
+Step 9: Return to the Email window and search by subject<br/>
+Step 10: Verify the saved email subject<br/>
+Expected Subject: Automation Testing<br/>
+Actual Subject: Automation Testing<br/>
+Test case Passed: Email was saved and subject verified successfully<br/>
+Step 11: Select the saved email<br/>
+Step 12: Click Delete to delete the saved email<br/>
+Delete confirmation message: Are you sure you want to delete the selected 1 records?<br/>
+Delete confirmation alert accepted<br/>
+Step 13: Search again to verify email deletion<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //b[text()=&apos;No Records Found&apos;]&apos;
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.vtiger.crm.utilities.ExplicitWait.waitForElementToVisible(ExplicitWait.java:13)
+	at com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail(TC_Email_Negative.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[text()=&apos;No Records Found&apos;]&quot;}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [950327797fd271c4c93ff71e488f4e2a, findElement {using=xpath, value=//b[text()=&apos;No Records Found&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\golla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51284}, goog:processID: 28592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51284/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 950327797fd271c4c93ff71e488f4e2a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 28 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1419794148", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1419794148'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //b[text()=&apos;No Records Found&apos;]&apos;
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.vtiger.crm.utilities.ExplicitWait.waitForElementToVisible(ExplicitWait.java:13)
+	at com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail(TC_Email_Negative.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[text()=&apos;No Records Found&apos;]&quot;}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [950327797fd271c4c93ff71e488f4e2a, findElement {using=xpath, value=//b[text()=&apos;No Records Found&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\golla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51284}, goog:processID: 28592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51284/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 950327797fd271c4c93ff71e488f4e2a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 28 more
+</pre></div></td>
+<td>39</td>
+<td>com.vtiger.crm.email.TC_Email_Negative@1a677343</td></tr>
+<tr>
+<td title='com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail()'><b>verifyDeleteEmail</b><br>Test class: com.vtiger.crm.email.TC_Email_Negative<br>Parameters: Vinayak Malgaund, Application issue handle<br/>
+<a href="#Output-306482657" onClick='toggleBox("Output-306482657", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-306482657" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-306482657">
+Step 1: Navigate to the home page and click on Email<br/>
+Step 2: Click on Compose email<br/>
+Step 3: Wait for the Compose window to open<br/>
+Step 4: Click Add To to select an email recipient<br/>
+Step 5: Search for contact: Vinayak Malgaund<br/>
+Step 6: Select the contact: Vinayak Malgaund<br/>
+Step 7: Enter the email subject: Application issue handle<br/>
+Step 8: Save the composed email<br/>
+Step 9: Return to the Email window and search by subject<br/>
+Step 10: Verify the saved email subject<br/>
+Expected Subject: Application issue handle<br/>
+Actual Subject: Application issue handle<br/>
+Test case Passed: Email was saved and subject verified successfully<br/>
+Step 11: Select the saved email<br/>
+Step 12: Click Delete to delete the saved email<br/>
+Delete confirmation message: Are you sure you want to delete the selected 1 records?<br/>
+Delete confirmation alert accepted<br/>
+Step 13: Search again to verify email deletion<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //b[text()=&apos;No Records Found&apos;]&apos;
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.vtiger.crm.utilities.ExplicitWait.waitForElementToVisible(ExplicitWait.java:13)
+	at com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail(TC_Email_Negative.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[text()=&apos;No Records Found&apos;]&quot;}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e536f15fd5d5f1aadca220cafb045242, findElement {using=xpath, value=//b[text()=&apos;No Records Found&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\golla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11257}, goog:processID: 27660, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11257/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e536f15fd5d5f1aadca220cafb045242
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 28 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace306482657", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace306482657'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //b[text()=&apos;No Records Found&apos;]&apos;
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.vtiger.crm.utilities.ExplicitWait.waitForElementToVisible(ExplicitWait.java:13)
+	at com.vtiger.crm.email.TC_Email_Negative.verifyDeleteEmail(TC_Email_Negative.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[text()=&apos;No Records Found&apos;]&quot;}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e536f15fd5d5f1aadca220cafb045242, findElement {using=xpath, value=//b[text()=&apos;No Records Found&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\golla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11257}, goog:processID: 27660, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11257/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e536f15fd5d5f1aadca220cafb045242
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 28 more
+</pre></div></td>
+<td>42</td>
+<td>com.vtiger.crm.email.TC_Email_Negative@1a677343</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyProductDocDelete()'><b>verifyProductDocDelete</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: smart_watches, guess_watch<br/>
+<a href="#Output-1168076863" onClick='toggleBox("Output-1168076863", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1168076863" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1168076863">
+Step 1: Navigate to Documents module<br/>
+Step 2: Click on Create Document<br/>
+Step 3: Enter document title and save the document<br/>
+Step 4: Click on Delete Document<br/>
+Step 5: Wait for delete confirmation alert<br/>
+Delete confirmation alert: Are you sure you want to delete this record?<br/>
+Step 6: Navigate to Products module<br/>
+Step 7: Create a product<br/>
+Step 8: Open Product Documents<br/>
+Step 9: Open Select Documents popup<br/>
+Popup Title: <br/>
+Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134421&parenttab=Inventory<br/>
+Step 10: Search for the deleted document<br/>
+Step 11: Verify the document search result<br/>
+Search result: No Documents Found !<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.login.TC_Login_Functional.verifyInvalidLogin()'><b>verifyInvalidLogin</b><br>Test class: com.vtiger.crm.login.TC_Login_Functional<br/>
+<a href="#Output-1773008684" onClick='toggleBox("Output-1773008684", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1773008684" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1773008684">
+Step 1: Initialize the Login page<br/>
+Step 2: Read invalid username and password from the properties file<br/>
+Step 3: Enter invalid login credentials<br/>
+Step 4: Capture the login error message<br/>
+Login error message: You must specify a valid username and password.<br/>
+Step 5: Verify that the login error message is displayed<br/>
+Test case Passed: Invalid login error message was displayed successfully<br/>
+Step 6: Capture screenshot for invalid login credentials<br/>
+Screenshot captured for invalid login credentials<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.vtiger.crm.login.TC_Login_Functional@179ece50</td></tr>
+<tr>
+<td title='com.vtiger.crm.opportunities.TC_Opportunities_Negative.verifyOppName()'><b>verifyOppName</b><br>Test class: com.vtiger.crm.opportunities.TC_Opportunities_Negative<br/>
+<a href="#Output-1604342290" onClick='toggleBox("Output-1604342290", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1604342290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604342290">
+Step 1: Navigate to the Opportunities module<br/>
+Step 2: Click on Create Opportunity<br/>
+Step 3: Initialize the Opportunity Information page<br/>
+Step 4: Click Save without entering the Opportunity Name<br/>
+Step 5: Wait for the validation alert to appear<br/>
+Validation alert message: Opportunity Name cannot be empty<br/>
+Step 6: Verify the Opportunity Name validation message<br/>
+Test case Passed: Opportunity Name validation message displayed successfully<br/>
+Step 7: Accept the validation alert<br/>
+Validation alert accepted successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.vtiger.crm.opportunities.TC_Opportunities_Negative@1fa121e2</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Functional.verifyCreateDocument()'><b>verifyCreateDocument</b><br>Test class: com.vtiger.crm.document.TC_Document_Functional<br>Parameters: document2_Title, product2, C:\Users\golla\OneDrive\Desktop\ReadFromFile1.txt, Bill Gates, <br/>
+<a href="#Output-1358820431" onClick='toggleBox("Output-1358820431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1358820431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1358820431">
+Navigate to the home page and click on documents<br/>
+Step 2: Click on Create Document button<br/>
+Step 3: Enter the document title<br/>
+Step 4: Click on Save button to save the document<br/>
+Step 5: Verify the created document title<br/>
+Expected Document Title: document2_Title<br/>
+Actual Document Title: document2_Title<br/>
+Step 6: Document title is matching. Test passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2</td></tr>
+<tr>
+<td title='com.vtiger.crm.product.TC_Product_Negative.verifyProductNameblank()'><b>verifyProductNameblank</b><br>Test class: com.vtiger.crm.product.TC_Product_Negative<br/>
+<a href="#Output-878991463" onClick='toggleBox("Output-878991463", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-878991463" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-878991463">
+Step 1: Navigate to the Products module<br/>
+Step 2: Click on Create Product<br/>
+Step 3: Initialize the Product Information page<br/>
+Step 4: Click Save without entering the Product Name<br/>
+Step 5: Wait for the validation alert to appear<br/>
+Step 6: Retrieve the validation alert message<br/>
+Validation alert message: Product Name cannot be empty<br/>
+Step 7: Verify the Product Name validation message<br/>
+Test case Passed: Product Name validation message displayed successfully<br/>
+Step 8: Accept the validation alert<br/>
+Validation alert accepted successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.vtiger.crm.product.TC_Product_Negative@9d5509a</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Functional.verifyLargeSizedFile()'><b>verifyLargeSizedFile</b><br>Test class: com.vtiger.crm.document.TC_Document_Functional<br/>
+<a href="#Output-805495703" onClick='toggleBox("Output-805495703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-805495703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-805495703">
+Navigate to the home page and click on documents<br/>
+Step 2: Click on Create Document button<br/>
+Step 3: Open Excel file and read document test data<br/>
+Step 4: Enter document title from Excel<br/>
+Step 5: Upload a file larger than 3MB<br/>
+Step 6: Wait for the file size alert<br/>
+Step 7: Capture and verify the alert message<br/>
+Expected Alert Message: File size should not be greater than 3MB<br/>
+Actual Alert Message: File size should not be greater than 3MB<br/>
+Step 8: Accept the alert<br/>
+Step 9: Capture screenshot of the large file validation<br/>
+Step 10: Large file validation test completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyProductDocDelete()'><b>verifyProductDocDelete</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: refirgerator, samsung<br/>
+<a href="#Output-724128993" onClick='toggleBox("Output-724128993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-724128993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-724128993">
+Step 1: Navigate to Documents module<br/>
+Step 2: Click on Create Document<br/>
+Step 3: Enter document title and save the document<br/>
+Step 4: Click on Delete Document<br/>
+Step 5: Wait for delete confirmation alert<br/>
+Delete confirmation alert: Are you sure you want to delete this record?<br/>
+Step 6: Navigate to Products module<br/>
+Step 7: Create a product<br/>
+Step 8: Open Product Documents<br/>
+Step 9: Open Select Documents popup<br/>
+Popup Title: <br/>
+Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134423&parenttab=Inventory<br/>
+Step 10: Search for the deleted document<br/>
+Step 11: Verify the document search result<br/>
+Search result: No Documents Found !<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Functional.verifyCreateDocument()'><b>verifyCreateDocument</b><br>Test class: com.vtiger.crm.document.TC_Document_Functional<br>Parameters: document1_Title, product1, C:\Users\golla\OneDrive\Desktop\ReadFromFile1.txt, ACOE Fireflink, C:\Users\golla\Downloads\Soft Computing ppt.pptx<br/>
+<a href="#Output-944757319" onClick='toggleBox("Output-944757319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-944757319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-944757319">
+Navigate to the home page and click on documents<br/>
+Step 2: Click on Create Document button<br/>
+Step 3: Enter the document title<br/>
+Step 4: Click on Save button to save the document<br/>
+Step 5: Verify the created document title<br/>
+Expected Document Title: document1_Title<br/>
+Actual Document Title: document1_Title<br/>
+Step 6: Document title is matching. Test passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Functional.verifyCreateDocument()'><b>verifyCreateDocument</b><br>Test class: com.vtiger.crm.document.TC_Document_Functional<br>Parameters: document3_Title, product3, C:\Users\golla\OneDrive\Desktop\ReadFromFile1.txt, Admin123@ Administrator1, <br/>
+<a href="#Output-798695894" onClick='toggleBox("Output-798695894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-798695894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-798695894">
+Navigate to the home page and click on documents<br/>
+Step 2: Click on Create Document button<br/>
+Step 3: Enter the document title<br/>
+Step 4: Click on Save button to save the document<br/>
+Step 5: Verify the created document title<br/>
+Expected Document Title: document3_Title<br/>
+Actual Document Title: document3_Title<br/>
+Step 6: Document title is matching. Test passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.vtiger.crm.document.TC_Document_Functional@6ed3ccb2</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyProductDocDelete()'><b>verifyProductDocDelete</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: wireless Mouse, Mouse_product_guide<br/>
+<a href="#Output-1326878729" onClick='toggleBox("Output-1326878729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1326878729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1326878729">
+Step 1: Navigate to Documents module<br/>
+Step 2: Click on Create Document<br/>
+Step 3: Enter document title and save the document<br/>
+Step 4: Click on Delete Document<br/>
+Step 5: Wait for delete confirmation alert<br/>
+Delete confirmation alert: Are you sure you want to delete this record?<br/>
+Step 6: Navigate to Products module<br/>
+Step 7: Create a product<br/>
+Step 8: Open Product Documents<br/>
+Step 9: Open Select Documents popup<br/>
+Popup Title: <br/>
+Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=134425&parenttab=Inventory<br/>
+Step 10: Search for the deleted document<br/>
+Step 11: Verify the document search result<br/>
+Search result: No Documents Found !<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+</table><p>
+</body>
+</html>
