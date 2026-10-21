@@ -35,7 +35,7 @@ public class TC_Document_Integration extends BaseClass{
 	
 @Test(dataProvider = "createDoc",groups = {"integration","positive"})
 public void verifyproductdocIntegration(String doctitle,String productname) throws InterruptedException, IOException {
-	Reporter.log("Navigate to the home page and click on documents");
+	Reporter.log("Step 1:Navigate to the home page and click on documents",true);
 	HomePage h=new HomePage(driver);
 	h.getProductlink().click();
 	Reporter.log("Step 2: Click on Create Product", true);

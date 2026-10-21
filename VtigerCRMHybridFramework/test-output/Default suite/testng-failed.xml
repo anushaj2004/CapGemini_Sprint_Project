@@ -5,8 +5,8 @@
     <classes>
       <class name="com.vtiger.crm.document.TC_Document_Integration">
         <methods>
+          <include name="verifyproductdocIntegration" invocation-numbers="2"/>
           <include name="lanuchBrowser"/>
-          <include name="verifyProductDocDelete"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.vtiger.crm.document.TC_Document_Integration -->
