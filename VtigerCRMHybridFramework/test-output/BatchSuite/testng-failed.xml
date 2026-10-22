@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BatchSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BatchTest(failed)">
+    <classes>
+      <class name="com.vtiger.crm.email.TC_Email_Functional">
+        <methods>
+          <include name="verifyEmailCompose" invocation-numbers="0"/>
+          <include name="lanuchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.crm.email.TC_Email_Functional -->
+      <class name="com.vtiger.crm.product.TC_Product_Functional">
+        <methods>
+          <include name="lanuchBrowser"/>
+          <include name="verifyCreateProduct" invocation-numbers="2"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.crm.product.TC_Product_Functional -->
+      <class name="com.vtiger.crm.email.TC_Email_Negative">
+        <methods>
+          <include name="verifyDeleteEmail" invocation-numbers="0"/>
+          <include name="lanuchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.crm.email.TC_Email_Negative -->
+    </classes>
+  </test> <!-- BatchTest(failed) -->
+</suite> <!-- Failed suite [BatchSuite] -->

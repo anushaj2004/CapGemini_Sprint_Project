@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.vtiger.crm.product.TC_Product_Functional
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 133.1 s -- in com.vtiger.crm.product.TC_Product_Functional

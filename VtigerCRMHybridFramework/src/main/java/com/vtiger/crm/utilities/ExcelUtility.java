@@ -32,33 +32,6 @@ public class ExcelUtility {
     }
     
    
-//    //get multiple data
-//    public Object[][] getMultipleData() throws IOException {
-//
-//        FileInputStream file = new FileInputStream("./src/test/resources/Test_Data/VtigerTestData.xlsx");
-//
-//        Workbook wb = WorkbookFactory.create(file);
-//        Sheet sh = wb.getSheet("Sheet1");
-//
-//        int rowCount = sh.getLastRowNum();
-//        int colCount = sh.getRow(0).getLastCellNum();
-//
-//        Object[][] data = new Object[rowCount][colCount];
-//
-//        DataFormatter df = new DataFormatter();
-//
-//        for (int i = 1; i <= rowCount; i++) {
-//            for (int j = 0; j < colCount; j++) {
-//                data[i - 1][j] =
-//                    df.formatCellValue(sh.getRow(i).getCell(j));
-//            }
-//        }
-//
-//        wb.close();
-//        file.close();
-//
-//        return data;
-//    }
     
 //    get multiple data for integration
     public Object[][] getMultipleData(String sheetName) throws IOException {

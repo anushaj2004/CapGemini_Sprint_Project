@@ -1,0 +1,524 @@
+<html>
+<head>
+<title>TestNG:  IntegrationGroupTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>IntegrationGroupTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 22 12:52:35 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>909 seconds (909066 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>integration </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyProductDocDelete()'><b>verifyProductDocDelete</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: smart_watches, guess_watch<br/>
+<a href="#Output-129165617" onClick='toggleBox("Output-129165617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-129165617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-129165617">
+Step 1: Navigate to Documents module<br/>
+Step 2: Click on Create Document<br/>
+Step 3: Enter document title and save the document<br/>
+Step 4: Click on Delete Document<br/>
+Step 5: Wait for delete confirmation alert<br/>
+Delete confirmation alert: Are you sure you want to delete this record?<br/>
+Step 6: Navigate to Products module<br/>
+Step 7: Create a product<br/>
+Step 8: Open Product Documents<br/>
+Step 9: Open Select Documents popup<br/>
+Popup Title: <br/>
+Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=136033&parenttab=Inventory<br/>
+Step 10: Search for the deleted document<br/>
+Step 11: Verify the document search result<br/>
+Search result: No Documents Found !<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.login.TC_Login_Integration.verifyLoginIntegrationDocument()'><b>verifyLoginIntegrationDocument</b><br>Test class: com.vtiger.crm.login.TC_Login_Integration<br/>
+<a href="#Output-1659309731" onClick='toggleBox("Output-1659309731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1659309731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1659309731">
+Step 1: Initialize the Login page<br/>
+Step 2: Read username and password from the properties file<br/>
+Step 3: Enter valid login credentials<br/>
+Step 4: Initialize the Home page<br/>
+Step 5: Click on the Documents link<br/>
+Step 6: Verify that the Documents module is opened<br/>
+Test case Passed: Documents module opened successfully after login<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.vtiger.crm.login.TC_Login_Integration@3c46e67a</td></tr>
+<tr>
+<td title='com.vtiger.crm.product.TC_Product_Integration.verifyProdcutLinkedVendor()'><b>verifyProdcutLinkedVendor</b><br>Test class: com.vtiger.crm.product.TC_Product_Integration<br>Parameters: TechWorld Solutions, Dell Laptop<br/>
+<a href="#Output-309271464" onClick='toggleBox("Output-309271464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-309271464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-309271464">
+Step 1: Navigate to the More Options menu<br/>
+Step 2: Open the Vendors module<br/>
+Step 3: Click on Create Vendor<br/>
+Step 4: Enter the vendor name: TechWorld Solutions<br/>
+Step 5: Save the vendor<br/>
+Step 6: Open More Information for the vendor<br/>
+Step 7: Display the vendor products section<br/>
+Step 8: Click on Add Product<br/>
+Step 9: Enter the product name: Dell Laptop<br/>
+Step 10: Save the product<br/>
+Step 11: Wait for the Products link to become visible<br/>
+Step 12: Navigate to the Products module<br/>
+Step 13: Select Vendor Name as the search filter<br/>
+Step 14: Wait for the filter selection to apply<br/>
+Step 15: Enter the vendor name in the search field: TechWorld Solutions<br/>
+Step 16: Select the product type filter<br/>
+Step 17: Click the Search button<br/>
+Step 18: Wait for the search results to load<br/>
+Step 19: Retrieve the vendor product search results<br/>
+Vendor product search results: Dell Laptop<br/>
+Step 20: Verify that the product is associated with the vendor<br/>
+Test case Passed: Product associated with the vendor and verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.vtiger.crm.product.TC_Product_Integration@5bda8e08</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyProductDocDelete()'><b>verifyProductDocDelete</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: wireless Mouse, Mouse_product_guide<br/>
+<a href="#Output-621874105" onClick='toggleBox("Output-621874105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-621874105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-621874105">
+Step 1: Navigate to Documents module<br/>
+Step 2: Click on Create Document<br/>
+Step 3: Enter document title and save the document<br/>
+Step 4: Click on Delete Document<br/>
+Step 5: Wait for delete confirmation alert<br/>
+Delete confirmation alert: Are you sure you want to delete this record?<br/>
+Step 6: Navigate to Products module<br/>
+Step 7: Create a product<br/>
+Step 8: Open Product Documents<br/>
+Step 9: Open Select Documents popup<br/>
+Popup Title: <br/>
+Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=136044&parenttab=Inventory<br/>
+Step 10: Search for the deleted document<br/>
+Step 11: Verify the document search result<br/>
+Search result: No Documents Found !<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyproductdocIntegration()'><b>verifyproductdocIntegration</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: wireless Mouse, Mouse_product_guide<br/>
+<a href="#Output-2141044241" onClick='toggleBox("Output-2141044241", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2141044241" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2141044241">
+Step 1:Navigate to the home page and click on documents<br/>
+Step 2: Click on Create Product<br/>
+Step 3: Enter product name and save the product<br/>
+Step 4: Open product More Information<br/>
+Step 5: Open product Documents and click Add Document<br/>
+Step 6: Enter document title and save the document<br/>
+Step 7: Navigate to Documents module and search for the document<br/>
+Step 8: Verify the document title<br/>
+Expected Document Title: wireless Mouse<br/>
+Actual Document Title: wireless Mouse<br/>
+Step 9: Product-document integration test passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.opportunities.TC_Opportunities_Integration.verifyOpportunityIntegrationWithProduct()'><b>verifyOpportunityIntegrationWithProduct</b><br>Test class: com.vtiger.crm.opportunities.TC_Opportunities_Integration<br>Parameters: Cloud_Migration_Project, TestOrg1782741728137, wireless Mouse<br/>
+<a href="#Output-1896545607" onClick='toggleBox("Output-1896545607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1896545607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1896545607">
+Step 1: Navigate to the Opportunities module<br/>
+Step 2: Click on Create Opportunity<br/>
+Step 3: Enter the opportunity name: Cloud_Migration_Project<br/>
+Step 4: Open the Organization lookup popup<br/>
+Step 5: Search for organization: TestOrg1782741728137<br/>
+Step 6: Search and select the organization<br/>
+Step 7: Return to the Opportunity creation window<br/>
+Step 8: Select the sales stage<br/>
+Step 9: Save the opportunity<br/>
+Step 10: Open More Information for the opportunity<br/>
+Step 11: Display the product selection section<br/>
+Step 12: Open the product selection popup<br/>
+Step 13: Search for product: wireless Mouse<br/>
+Step 14: Click Search to find the product<br/>
+Step 15: Select the product: wireless Mouse<br/>
+Step 16: Return to the Opportunity More Information window<br/>
+Step 17: Navigate to the Products module<br/>
+Step 18: Search for the product: wireless Mouse<br/>
+Step 19: Click Search to find the product<br/>
+Step 20: Select the product from the product list<br/>
+Test case Passed: Opportunity product selection workflow completed<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.vtiger.crm.opportunities.TC_Opportunities_Integration@6f03482</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyproductdocIntegration()'><b>verifyproductdocIntegration</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: refirgerator, samsung<br/>
+<a href="#Output-654350286" onClick='toggleBox("Output-654350286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-654350286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-654350286">
+Step 1:Navigate to the home page and click on documents<br/>
+Step 2: Click on Create Product<br/>
+Step 3: Enter product name and save the product<br/>
+Step 4: Open product More Information<br/>
+Step 5: Open product Documents and click Add Document<br/>
+Step 6: Enter document title and save the document<br/>
+Step 7: Navigate to Documents module and search for the document<br/>
+Step 8: Verify the document title<br/>
+Expected Document Title: refirgerator<br/>
+Actual Document Title: refirgerator<br/>
+Step 9: Product-document integration test passed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.email.TC_Email_Integration.verifyEmailOrganizationIntegration()'><b>verifyEmailOrganizationIntegration</b><br>Test class: com.vtiger.crm.email.TC_Email_Integration<br>Parameters: SystemTest_Org_003_1792254573900, Accept Order<br/>
+<a href="#Output-311725690" onClick='toggleBox("Output-311725690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-311725690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-311725690">
+Step 1: Navigate to the home page and click on Email<br/>
+Step 2: Click on Compose email<br/>
+Step 3: Wait for the Compose window to open<br/>
+Step 4: Select Organizations as the recipient type<br/>
+Step 5: Click Add To to select an organization<br/>
+Step 6: Search for organization: SystemTest_Org_003_1792254573900<br/>
+Step 7: Select the organization<br/>
+Step 8: Open the Email Templates popup<br/>
+Step 9: Select email template: Accept Order<br/>
+Step 10: Save the composed email<br/>
+Step 11: Search emails by organization<br/>
+Step 12: Enter the subject and select the search criteria<br/>
+Step 13: Verify the saved email subject<br/>
+Expected Subject: Accept Order<br/>
+Actual Subject: Accept Order<br/>
+Test case Passed: Email was saved and the subject was verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.vtiger.crm.email.TC_Email_Integration@62ddbd7e</td></tr>
+<tr>
+<td title='com.vtiger.crm.opportunities.TC_Opportunities_Integration.verifyOpportunityIntegrationWithProduct()'><b>verifyOpportunityIntegrationWithProduct</b><br>Test class: com.vtiger.crm.opportunities.TC_Opportunities_Integration<br>Parameters: CRM_Upgrade_Project, Qspider2026, refirgerator<br/>
+<a href="#Output-564569236" onClick='toggleBox("Output-564569236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-564569236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-564569236">
+Step 1: Navigate to the Opportunities module<br/>
+Step 2: Click on Create Opportunity<br/>
+Step 3: Enter the opportunity name: CRM_Upgrade_Project<br/>
+Step 4: Open the Organization lookup popup<br/>
+Step 5: Search for organization: Qspider2026<br/>
+Step 6: Search and select the organization<br/>
+Step 7: Return to the Opportunity creation window<br/>
+Step 8: Select the sales stage<br/>
+Step 9: Save the opportunity<br/>
+Step 10: Open More Information for the opportunity<br/>
+Step 11: Display the product selection section<br/>
+Step 12: Open the product selection popup<br/>
+Step 13: Search for product: refirgerator<br/>
+Step 14: Click Search to find the product<br/>
+Step 15: Select the product: refirgerator<br/>
+Step 16: Return to the Opportunity More Information window<br/>
+Step 17: Navigate to the Products module<br/>
+Step 18: Search for the product: refirgerator<br/>
+Step 19: Click Search to find the product<br/>
+Step 20: Select the product from the product list<br/>
+Test case Passed: Opportunity product selection workflow completed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.vtiger.crm.opportunities.TC_Opportunities_Integration@6f03482</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyProductDocDelete()'><b>verifyProductDocDelete</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: refirgerator, samsung<br/>
+<a href="#Output-1705294294" onClick='toggleBox("Output-1705294294", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1705294294" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1705294294">
+Step 1: Navigate to Documents module<br/>
+Step 2: Click on Create Document<br/>
+Step 3: Enter document title and save the document<br/>
+Step 4: Click on Delete Document<br/>
+Step 5: Wait for delete confirmation alert<br/>
+Delete confirmation alert: Are you sure you want to delete this record?<br/>
+Step 6: Navigate to Products module<br/>
+Step 7: Create a product<br/>
+Step 8: Open Product Documents<br/>
+Step 9: Open Select Documents popup<br/>
+Popup Title: <br/>
+Popup URL: http://49.249.29.4:8888/index.php?module=Documents&return_module=Products&action=Popup&popuptype=detailview&select=enable&form=EditView&form_submit=false&recordid=136038&parenttab=Inventory<br/>
+Step 10: Search for the deleted document<br/>
+Step 11: Verify the document search result<br/>
+Search result: No Documents Found !<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.product.TC_Product_Integration.verifyProdcutLinkedVendor()'><b>verifyProdcutLinkedVendor</b><br>Test class: com.vtiger.crm.product.TC_Product_Integration<br>Parameters: SmartBuy Traders, Logitech Mouse<br/>
+<a href="#Output-591247593" onClick='toggleBox("Output-591247593", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-591247593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-591247593">
+Step 1: Navigate to the More Options menu<br/>
+Step 2: Open the Vendors module<br/>
+Step 3: Click on Create Vendor<br/>
+Step 4: Enter the vendor name: SmartBuy Traders<br/>
+Step 5: Save the vendor<br/>
+Step 6: Open More Information for the vendor<br/>
+Step 7: Display the vendor products section<br/>
+Step 8: Click on Add Product<br/>
+Step 9: Enter the product name: Logitech Mouse<br/>
+Step 10: Save the product<br/>
+Step 11: Wait for the Products link to become visible<br/>
+Step 12: Navigate to the Products module<br/>
+Step 13: Select Vendor Name as the search filter<br/>
+Step 14: Wait for the filter selection to apply<br/>
+Step 15: Enter the vendor name in the search field: SmartBuy Traders<br/>
+Step 16: Select the product type filter<br/>
+Step 17: Click the Search button<br/>
+Step 18: Wait for the search results to load<br/>
+Step 19: Retrieve the vendor product search results<br/>
+Vendor product search results: Logitech Mouse<br/>
+Step 20: Verify that the product is associated with the vendor<br/>
+Test case Passed: Product associated with the vendor and verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.vtiger.crm.product.TC_Product_Integration@5bda8e08</td></tr>
+<tr>
+<td title='com.vtiger.crm.document.TC_Document_Integration.verifyproductdocIntegration()'><b>verifyproductdocIntegration</b><br>Test class: com.vtiger.crm.document.TC_Document_Integration<br>Parameters: smart_watches, guess_watch<br/>
+<a href="#Output-1504475129" onClick='toggleBox("Output-1504475129", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1504475129" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1504475129">
+Step 1:Navigate to the home page and click on documents<br/>
+Step 2: Click on Create Product<br/>
+Step 3: Enter product name and save the product<br/>
+Step 4: Open product More Information<br/>
+Step 5: Open product Documents and click Add Document<br/>
+Step 6: Enter document title and save the document<br/>
+Step 7: Navigate to Documents module and search for the document<br/>
+Step 8: Verify the document title<br/>
+Expected Document Title: smart_watches<br/>
+Actual Document Title: smart_watches<br/>
+Step 9: Product-document integration test passed<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.vtiger.crm.document.TC_Document_Integration@4116aac9</td></tr>
+<tr>
+<td title='com.vtiger.crm.product.TC_Product_Integration.verifyProdcutLinkedVendor()'><b>verifyProdcutLinkedVendor</b><br>Test class: com.vtiger.crm.product.TC_Product_Integration<br>Parameters: GlobalTech Suppliers, HP Keyboard<br/>
+<a href="#Output-1648537147" onClick='toggleBox("Output-1648537147", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1648537147" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1648537147">
+Step 1: Navigate to the More Options menu<br/>
+Step 2: Open the Vendors module<br/>
+Step 3: Click on Create Vendor<br/>
+Step 4: Enter the vendor name: GlobalTech Suppliers<br/>
+Step 5: Save the vendor<br/>
+Step 6: Open More Information for the vendor<br/>
+Step 7: Display the vendor products section<br/>
+Step 8: Click on Add Product<br/>
+Step 9: Enter the product name: HP Keyboard<br/>
+Step 10: Save the product<br/>
+Step 11: Wait for the Products link to become visible<br/>
+Step 12: Navigate to the Products module<br/>
+Step 13: Select Vendor Name as the search filter<br/>
+Step 14: Wait for the filter selection to apply<br/>
+Step 15: Enter the vendor name in the search field: GlobalTech Suppliers<br/>
+Step 16: Select the product type filter<br/>
+Step 17: Click the Search button<br/>
+Step 18: Wait for the search results to load<br/>
+Step 19: Retrieve the vendor product search results<br/>
+Vendor product search results: HP Keyboard<br/>
+Step 20: Verify that the product is associated with the vendor<br/>
+Test case Passed: Product associated with the vendor and verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.vtiger.crm.product.TC_Product_Integration@5bda8e08</td></tr>
+<tr>
+<td title='com.vtiger.crm.product.TC_Product_Integration.verifyProdcutLinkedVendor()'><b>verifyProdcutLinkedVendor</b><br>Test class: com.vtiger.crm.product.TC_Product_Integration<br>Parameters: DigitalMart Enterprises, Samsung Monitor<br/>
+<a href="#Output-903794242" onClick='toggleBox("Output-903794242", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-903794242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-903794242">
+Step 1: Navigate to the More Options menu<br/>
+Step 2: Open the Vendors module<br/>
+Step 3: Click on Create Vendor<br/>
+Step 4: Enter the vendor name: DigitalMart Enterprises<br/>
+Step 5: Save the vendor<br/>
+Step 6: Open More Information for the vendor<br/>
+Step 7: Display the vendor products section<br/>
+Step 8: Click on Add Product<br/>
+Step 9: Enter the product name: Samsung Monitor<br/>
+Step 10: Save the product<br/>
+Step 11: Wait for the Products link to become visible<br/>
+Step 12: Navigate to the Products module<br/>
+Step 13: Select Vendor Name as the search filter<br/>
+Step 14: Wait for the filter selection to apply<br/>
+Step 15: Enter the vendor name in the search field: DigitalMart Enterprises<br/>
+Step 16: Select the product type filter<br/>
+Step 17: Click the Search button<br/>
+Step 18: Wait for the search results to load<br/>
+Step 19: Retrieve the vendor product search results<br/>
+Vendor product search results: Samsung Monitor<br/>
+Step 20: Verify that the product is associated with the vendor<br/>
+Test case Passed: Product associated with the vendor and verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.vtiger.crm.product.TC_Product_Integration@5bda8e08</td></tr>
+<tr>
+<td title='com.vtiger.crm.email.TC_Email_Integration.verifyEmailOrganizationIntegration()'><b>verifyEmailOrganizationIntegration</b><br>Test class: com.vtiger.crm.email.TC_Email_Integration<br>Parameters: SystemTest_Org_003_1792254572560, For Testing<br/>
+<a href="#Output-2002410087" onClick='toggleBox("Output-2002410087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2002410087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2002410087">
+Step 1: Navigate to the home page and click on Email<br/>
+Step 2: Click on Compose email<br/>
+Step 3: Wait for the Compose window to open<br/>
+Step 4: Select Organizations as the recipient type<br/>
+Step 5: Click Add To to select an organization<br/>
+Step 6: Search for organization: SystemTest_Org_003_1792254572560<br/>
+Step 7: Select the organization<br/>
+Step 8: Open the Email Templates popup<br/>
+Step 9: Select email template: For Testing<br/>
+Step 10: Save the composed email<br/>
+Step 11: Search emails by organization<br/>
+Step 12: Enter the subject and select the search criteria<br/>
+Step 13: Verify the saved email subject<br/>
+Expected Subject: For Testing<br/>
+Actual Subject: For Testing<br/>
+Test case Passed: Email was saved and the subject was verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.vtiger.crm.email.TC_Email_Integration@62ddbd7e</td></tr>
+<tr>
+<td title='com.vtiger.crm.opportunities.TC_Opportunities_Integration.verifyOpportunityIntegrationWithProduct()'><b>verifyOpportunityIntegrationWithProduct</b><br>Test class: com.vtiger.crm.opportunities.TC_Opportunities_Integration<br>Parameters: Website_Redesign_Deal, TestOrg1782741117289, smart_watches<br/>
+<a href="#Output-2077462509" onClick='toggleBox("Output-2077462509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2077462509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2077462509">
+Step 1: Navigate to the Opportunities module<br/>
+Step 2: Click on Create Opportunity<br/>
+Step 3: Enter the opportunity name: Website_Redesign_Deal<br/>
+Step 4: Open the Organization lookup popup<br/>
+Step 5: Search for organization: TestOrg1782741117289<br/>
+Step 6: Search and select the organization<br/>
+Step 7: Return to the Opportunity creation window<br/>
+Step 8: Select the sales stage<br/>
+Step 9: Save the opportunity<br/>
+Step 10: Open More Information for the opportunity<br/>
+Step 11: Display the product selection section<br/>
+Step 12: Open the product selection popup<br/>
+Step 13: Search for product: smart_watches<br/>
+Step 14: Click Search to find the product<br/>
+Step 15: Select the product: smart_watches<br/>
+Step 16: Return to the Opportunity More Information window<br/>
+Step 17: Navigate to the Products module<br/>
+Step 18: Search for the product: smart_watches<br/>
+Step 19: Click Search to find the product<br/>
+Step 20: Select the product from the product list<br/>
+Test case Passed: Opportunity product selection workflow completed<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.vtiger.crm.opportunities.TC_Opportunities_Integration@6f03482</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,43 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [parallel Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="classes" name="parallel Test(failed)">
+<suite name="Failed suite [NegativeGroupSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NegativeGroupTest(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.vtiger.crm.email.TC_Email_Integration">
-        <methods>
-          <include name="lanuchBrowser"/>
-          <include name="verifyEmailOrganizationIntegration" invocation-numbers="0"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.email.TC_Email_Integration -->
-      <class name="com.vtiger.crm.product.TC_Product_System">
-        <methods>
-          <include name="lanuchBrowser"/>
-          <include name="verifyProductSystemTest" invocation-numbers="2"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.product.TC_Product_System -->
-      <class name="com.vtiger.crm.email.TC_Email_Negative">
-        <methods>
-          <include name="verifyDeleteEmail" invocation-numbers="0 1"/>
-          <include name="lanuchBrowser"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.email.TC_Email_Negative -->
-      <class name="com.vtiger.crm.document.TC_Document_System">
-        <methods>
-          <include name="lanuchBrowser"/>
-          <include name="createDocAndVerifyDownload" invocation-numbers="1 2"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.document.TC_Document_System -->
       <class name="com.vtiger.crm.document.TC_Document_Integration">
         <methods>
-          <include name="verifyproductdocIntegration" invocation-numbers="0 2"/>
           <include name="lanuchBrowser"/>
+          <include name="verifyProductDocDelete" invocation-numbers="2"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.vtiger.crm.document.TC_Document_Integration -->
     </classes>
-  </test> <!-- parallel Test(failed) -->
-</suite> <!-- Failed suite [parallel Suite] -->
+  </test> <!-- NegativeGroupTest(failed) -->
+</suite> <!-- Failed suite [NegativeGroupSuite] -->

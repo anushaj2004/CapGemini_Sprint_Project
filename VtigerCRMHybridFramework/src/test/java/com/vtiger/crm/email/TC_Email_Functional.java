@@ -67,7 +67,7 @@ public class TC_Email_Functional extends BaseClass{
 		SelectedEmailToPopupPage sto = new SelectedEmailToPopupPage(driver);
 		sto.getSearchField().sendKeys(emailname);
 		Select sel = new Select(sto.getSearchType());
-		sel.selectByVisibleText("Email");
+		sel.selectByVisibleText("Last Name");
 		sto.getSearchButton().click();
 		Reporter.log("Step 6: Select the contact", true);
 		sto.getContactByName(emailname).click();

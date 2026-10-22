@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to the Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Product]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Initialize the Product Information page]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Enter the product name]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Save the product]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Navigate back to the Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Enter the product name in the search field]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Select the product type]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Wait for the search criteria to be applied]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Click the Search button]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Wait for the search results to load]]>
+    </line>
+    <line>
+      <![CDATA[Step 12: Retrieve the product search results]]>
+    </line>
+    <line>
+      <![CDATA[Product search results: smart_watches]]>
+    </line>
+    <line>
+      <![CDATA[Step 13: Verify that the product was created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Product created and verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to the Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Product]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Initialize the Product Information page]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Enter the product name]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Save the product]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Navigate back to the Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Enter the product name in the search field]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Select the product type]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Wait for the search criteria to be applied]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Click the Search button]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Wait for the search results to load]]>
+    </line>
+    <line>
+      <![CDATA[Step 12: Retrieve the product search results]]>
+    </line>
+    <line>
+      <![CDATA[Product search results: refirgerator]]>
+    </line>
+    <line>
+      <![CDATA[Step 13: Verify that the product was created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Product created and verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to the Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Click on Create Product]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Initialize the Product Information page]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Enter the product name]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Save the product]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Navigate back to the Products module]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Enter the product name in the search field]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Select the product type]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Wait for the search criteria to be applied]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Click the Search button]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Wait for the search results to load]]>
+    </line>
+    <line>
+      <![CDATA[Step 12: Retrieve the product search results]]>
+    </line>
+    <line>
+      <![CDATA[Product search results: wireless Mouse]]>
+    </line>
+    <line>
+      <![CDATA[Step 13: Verify that the product was created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test case Passed: Product created and verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout executed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-21T17:05:22 IST" name="Surefire suite" finished-at="2026-10-21T17:07:35 IST" duration-ms="132344">
+    <groups>
+      <group name="functional">
+        <method signature="TC_Product_Functional.verifyCreateProduct(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" name="verifyCreateProduct" class="com.vtiger.crm.product.TC_Product_Functional"/>
+      </group> <!-- functional -->
+      <group name="positive">
+        <method signature="TC_Product_Functional.verifyCreateProduct(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" name="verifyCreateProduct" class="com.vtiger.crm.product.TC_Product_Functional"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2026-10-21T17:05:22 IST" name="Surefire test" finished-at="2026-10-21T17:07:35 IST" duration-ms="132344">
+      <class name="com.vtiger.crm.product.TC_Product_Functional">
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:05:24 IST" name="lanuchBrowser" finished-at="2026-10-21T17:06:00 IST" duration-ms="36413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyCreateProduct(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:06:00 IST" name="verifyCreateProduct" data-provider="createProdcut" finished-at="2026-10-21T17:06:09 IST" duration-ms="8939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smart_watches]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[guess_watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to the Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Product]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Initialize the Product Information page]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Enter the product name]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Save the product]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Navigate back to the Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Enter the product name in the search field]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Select the product type]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Wait for the search criteria to be applied]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Click the Search button]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Wait for the search results to load]]>
+            </line>
+            <line>
+              <![CDATA[Step 12: Retrieve the product search results]]>
+            </line>
+            <line>
+              <![CDATA[Product search results: smart_watches]]>
+            </line>
+            <line>
+              <![CDATA[Step 13: Verify that the product was created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Product created and verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:06:09 IST" name="closeBrowser" finished-at="2026-10-21T17:06:10 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:06:10 IST" name="lanuchBrowser" finished-at="2026-10-21T17:06:42 IST" duration-ms="32031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyCreateProduct(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:06:42 IST" name="verifyCreateProduct" data-provider="createProdcut" finished-at="2026-10-21T17:06:51 IST" duration-ms="8724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[refirgerator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to the Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Product]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Initialize the Product Information page]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Enter the product name]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Save the product]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Navigate back to the Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Enter the product name in the search field]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Select the product type]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Wait for the search criteria to be applied]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Click the Search button]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Wait for the search results to load]]>
+            </line>
+            <line>
+              <![CDATA[Step 12: Retrieve the product search results]]>
+            </line>
+            <line>
+              <![CDATA[Product search results: refirgerator]]>
+            </line>
+            <line>
+              <![CDATA[Step 13: Verify that the product was created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Product created and verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:06:51 IST" name="closeBrowser" finished-at="2026-10-21T17:06:53 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lanuchBrowser(java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:06:53 IST" name="lanuchBrowser" finished-at="2026-10-21T17:06:55 IST" duration-ms="2405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method signature="verifyCreateProduct(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:06:55 IST" name="verifyCreateProduct" data-provider="createProdcut" finished-at="2026-10-21T17:07:33 IST" duration-ms="37753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wireless Mouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mouse_product_guide]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigate to the Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Click on Create Product]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Initialize the Product Information page]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Enter the product name]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Save the product]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Navigate back to the Products module]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Enter the product name in the search field]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Select the product type]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Wait for the search criteria to be applied]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Click the Search button]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Wait for the search results to load]]>
+            </line>
+            <line>
+              <![CDATA[Step 12: Retrieve the product search results]]>
+            </line>
+            <line>
+              <![CDATA[Product search results: wireless Mouse]]>
+            </line>
+            <line>
+              <![CDATA[Step 13: Verify that the product was created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test case Passed: Product created and verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.crm.product.TC_Product_Functional@67e2d983]" started-at="2026-10-21T17:07:33 IST" name="closeBrowser" finished-at="2026-10-21T17:07:35 IST" duration-ms="1926" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout executed]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.crm.product.TC_Product_Functional -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.crm.document.TC_Document_Integration">
+      <class name="com.vtiger.crm.document.TC_Document_Functional">
         <methods>
-          <include name="verifyproductdocIntegration" invocation-numbers="2"/>
+          <include name="verifyCreateDocument"/>
+          <include name="verifyLargeSizedFile"/>
           <include name="lanuchBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.vtiger.crm.document.TC_Document_Integration -->
+      </class> <!-- com.vtiger.crm.document.TC_Document_Functional -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
