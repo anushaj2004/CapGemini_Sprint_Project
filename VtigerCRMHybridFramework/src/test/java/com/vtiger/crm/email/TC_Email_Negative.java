@@ -26,7 +26,7 @@ public class TC_Email_Negative extends BaseClass{
 	@DataProvider(name="saveEmailDetails")
 	public Object[][] saveEmailDetails() throws IOException {
 		ExcelUtility e=new ExcelUtility();
-		return e.getMultipleData("Sheet8");
+		return e.getData("Sheet8");
 	}
 	@Test(dataProvider = "saveEmailDetails",groups = {"functional","negative"})
 	public void verifyDeleteEmail(String emailname,String subjectname) throws InterruptedException {

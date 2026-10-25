@@ -22,7 +22,7 @@ public class TC_Document_System extends BaseClass {
 	@DataProvider(name = "createDoc")
 	  public Object[][] createDoc() throws IOException {
 	      ExcelUtility e=new ExcelUtility();
-	      return e.getMultipleData("Sheet1");
+	      return e.getData("Sheet1");
 	  }
 @Test(dataProvider = "createDoc",groups = {"system","positive"})
 public void createDocAndVerifyDownload(String title,String productname,String filepath,String au,String largefile) throws InterruptedException {

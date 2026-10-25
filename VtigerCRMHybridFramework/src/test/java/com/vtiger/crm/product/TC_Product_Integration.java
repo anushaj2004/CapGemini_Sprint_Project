@@ -25,7 +25,7 @@ public class TC_Product_Integration extends BaseClass{
 	@DataProvider(name = "verifyProductVendor")
 	  public Object[][] verifyProductVendor() throws IOException {
 	      ExcelUtility e=new ExcelUtility();
-	      return e.getMultipleData("Sheet4");
+	      return e.getData("Sheet4");
 	}
 	@Test(dataProvider = "verifyProductVendor",groups = {"integration","positive"})
 	public void verifyProdcutLinkedVendor(String vendorName,String productName) throws InterruptedException {

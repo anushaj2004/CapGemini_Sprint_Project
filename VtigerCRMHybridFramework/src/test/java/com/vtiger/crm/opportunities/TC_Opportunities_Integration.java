@@ -26,7 +26,7 @@ public class TC_Opportunities_Integration extends BaseClass{
 	@DataProvider(name="oppProductIntegration")
 	public Object[][] oppProductIntegration() throws IOException {
 		ExcelUtility e=new ExcelUtility();
-		return e.getMultipleData("Sheet3");
+		return e.getData("Sheet3");
 	}
 	
 	@Test(dataProvider = "oppProductIntegration",groups = {"integration","positive"})

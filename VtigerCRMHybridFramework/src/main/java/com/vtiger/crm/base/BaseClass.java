@@ -50,7 +50,6 @@ public class BaseClass {
 		Reporter.log("Login successfull",true);
 
 	}
-	
 	@AfterMethod(alwaysRun = true)
 	public void closeBrowser()
 	{

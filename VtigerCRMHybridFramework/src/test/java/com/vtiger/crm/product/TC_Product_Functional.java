@@ -19,7 +19,7 @@ public class TC_Product_Functional extends BaseClass{
 	@DataProvider(name = "createProdcut")
 	  public Object[][] createProduct() throws IOException {
 	      ExcelUtility e=new ExcelUtility();
-	      return e.getMultipleData("Sheet2");
+	      return e.getData("Sheet2");
 	}
 @Test(dataProvider = "createProdcut",groups = {"functional","positive"})
 public void verifyCreateProduct(String productname,String docname) throws InterruptedException {

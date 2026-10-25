@@ -25,7 +25,7 @@ public class TC_Email_Functional extends BaseClass{
 	@DataProvider(name="saveEmailDetails")
 	public Object[][] saveEmailDetails() throws IOException {
 		ExcelUtility e=new ExcelUtility();
-		return e.getMultipleData("Sheet6");
+		return e.getData("Sheet6");
 	}
 	@Test(dataProvider = "saveEmailDetails",groups = {"functional","positive"})
 	public void verifyEmailCompose(String emailname,String subjectname) throws InterruptedException {

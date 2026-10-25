@@ -3,41 +3,13 @@
 <suite name="Failed suite [parallel Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="parallel Test(failed)">
     <classes>
-      <class name="com.vtiger.crm.email.TC_Email_Integration">
+      <class name="com.vtiger.crm.email.TC_Email_Functional">
         <methods>
-          <include name="lanuchBrowser"/>
-          <include name="verifyEmailOrganizationIntegration" invocation-numbers="0"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.email.TC_Email_Integration -->
-      <class name="com.vtiger.crm.product.TC_Product_System">
-        <methods>
-          <include name="lanuchBrowser"/>
-          <include name="verifyProductSystemTest" invocation-numbers="2"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.product.TC_Product_System -->
-      <class name="com.vtiger.crm.email.TC_Email_Negative">
-        <methods>
-          <include name="verifyDeleteEmail" invocation-numbers="0 1"/>
+          <include name="verifyEmailCompose" invocation-numbers="0"/>
           <include name="lanuchBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.vtiger.crm.email.TC_Email_Negative -->
-      <class name="com.vtiger.crm.document.TC_Document_System">
-        <methods>
-          <include name="lanuchBrowser"/>
-          <include name="createDocAndVerifyDownload" invocation-numbers="1 2"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.document.TC_Document_System -->
-      <class name="com.vtiger.crm.document.TC_Document_Integration">
-        <methods>
-          <include name="verifyproductdocIntegration" invocation-numbers="0 2"/>
-          <include name="lanuchBrowser"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.vtiger.crm.document.TC_Document_Integration -->
+      </class> <!-- com.vtiger.crm.email.TC_Email_Functional -->
     </classes>
   </test> <!-- parallel Test(failed) -->
 </suite> <!-- Failed suite [parallel Suite] -->

@@ -34,7 +34,7 @@ public class ExcelUtility {
    
     
 //    get multiple data for integration
-    public Object[][] getMultipleData(String sheetName) throws IOException {
+    public Object[][] getData(String sheetName) throws IOException {
 
         FileInputStream file = new FileInputStream("./src/test/resources/Test_Data/VtigerTestData.xlsx");
 

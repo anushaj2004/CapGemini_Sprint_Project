@@ -28,7 +28,7 @@ public class TC_Opportunities_Functional extends BaseClass {
 	@DataProvider(name="oppCreated")
 	public Object[][] oppCreated() throws IOException {
 		ExcelUtility e=new ExcelUtility();
-		return e.getMultipleData("Sheet3");
+		return e.getData("Sheet3");
 	}
 	
 	@Test(dataProvider = "oppCreated",groups = {"functional","positive"})

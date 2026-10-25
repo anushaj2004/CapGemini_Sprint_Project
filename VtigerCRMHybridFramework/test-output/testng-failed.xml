@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [NegativeGroupSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="NegativeGroupTest(failed)">
-    <groups>
-      <run>
-        <include name="negative"/>
-      </run>
-    </groups>
+<suite name="Failed suite [parallel Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="parallel Test(failed)">
     <classes>
-      <class name="com.vtiger.crm.document.TC_Document_Integration">
+      <class name="com.vtiger.crm.email.TC_Email_Functional">
         <methods>
+          <include name="verifyEmailCompose" invocation-numbers="0"/>
           <include name="lanuchBrowser"/>
-          <include name="verifyProductDocDelete" invocation-numbers="2"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.vtiger.crm.document.TC_Document_Integration -->
+      </class> <!-- com.vtiger.crm.email.TC_Email_Functional -->
     </classes>
-  </test> <!-- NegativeGroupTest(failed) -->
-</suite> <!-- Failed suite [NegativeGroupSuite] -->
+  </test> <!-- parallel Test(failed) -->
+</suite> <!-- Failed suite [parallel Suite] -->

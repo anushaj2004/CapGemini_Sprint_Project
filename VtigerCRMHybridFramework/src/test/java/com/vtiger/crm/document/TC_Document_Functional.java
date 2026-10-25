@@ -24,7 +24,7 @@ public class TC_Document_Functional extends BaseClass{
 	@DataProvider(name = "createDoc")
 	  public Object[][] createDoc() throws IOException {
 	      ExcelUtility e=new ExcelUtility();
-	      return e.getMultipleData("Sheet1");
+	      return e.getData("Sheet1");
 	  }
 	@Test(dataProvider = "createDoc",groups = {"functional","negative"})
 	public void verifyCreateDocument(String title,String productname,String filepath,String assignuser,String largefile) throws IOException {

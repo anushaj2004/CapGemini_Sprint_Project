@@ -25,7 +25,7 @@ public class TC_Email_Integration extends BaseClass{
 	@DataProvider(name="saveEmailDetails")
 	public Object[][] saveEmailDetails() throws IOException {
 		ExcelUtility e=new ExcelUtility();
-		return e.getMultipleData("Sheet7");
+		return e.getData("Sheet7");
 	}
 	@Test(dataProvider = "saveEmailDetails",groups = {"integration","positive"})
 	public void verifyEmailOrganizationIntegration(String orgname,String subjectname) throws InterruptedException {

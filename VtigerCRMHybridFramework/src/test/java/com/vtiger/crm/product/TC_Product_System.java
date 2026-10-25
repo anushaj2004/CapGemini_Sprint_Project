@@ -21,7 +21,7 @@ public class TC_Product_System extends BaseClass {
 	@DataProvider(name = "createproduct")
 	  public Object[][] createproduct() throws IOException {
 	      ExcelUtility e=new ExcelUtility();
-	      return e.getMultipleData("Sheet5");
+	      return e.getData("Sheet5");
 	}
 	
 	@Test(dataProvider = "createproduct",groups = {"system","positive"})
